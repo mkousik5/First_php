@@ -45,7 +45,7 @@ if(isset($_POST['fullname']))
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img class ="img" src="./img/university1.jpg" alt="College">
+    <span><img class ="img" src="./img/university1.jpg" alt="College"></span>
     <div class="container">
         <h1>Welcome To The College Database Form</h1>
         <p>Enter your details and submit this form to register your name in database</p>
