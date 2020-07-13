@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class ="img" src="./img/university1.jpg" alt="College">
+    <div class="container">
+        <h1>Welcome To The College Database Form</h1>
+        <p>Enter your details and submit this form to register your name in database</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="age" id="age" placeholder="Enter your age">
+            <input type="text" id="gender" placeholder="Enter your gender"> 
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="contact" name="contact" id="contact" placeholder="Enter your contact number">  
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Description"></textarea>
+            <button type="submit" name = "submit" class="btn">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        </form>
+    </div>
+  <script src="index.js"></script>
+
+</body>
+</html>  
